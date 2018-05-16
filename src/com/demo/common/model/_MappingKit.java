@@ -18,9 +18,7 @@ public class _MappingKit {
 	public static void mapping(ActiveRecordPlugin arp) {
 		arp.addMapping("channel", "Id", Channel.class);
 		arp.addMapping("user", "id", User.class);
-		arp.addMapping("user_info", "id", UserInfo.class);
 		arp.addMapping("visitor", "Id", Visitor.class);
-		arp.addMapping("website", "Id", Website.class);
 	}
 }
 
