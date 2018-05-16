@@ -1,0 +1,17 @@
+package com.demo.common.controller;
+
+import java.util.List;
+
+import com.demo.common.model.User;
+import com.jfinal.core.Controller;
+
+public class UserController extends Controller{
+    public void index() {
+        /*setAttr("users", User.me.find("select * from user"));
+        System.out.println("user的用户信息...");
+        System.out.println(User.me.find("select * from user"));*/
+        List<User> users = User.me.find("select * from user");
+        System.out.println(users);
+        renderText("user");
+    }
+}
