@@ -2,7 +2,8 @@ package com.demo.common;
 
 
 import com.demo.common.controller.HelloController;
-import com.demo.common.controller.UserController;
+import com.demo.common.controller.ProductCategoryController;
+import com.demo.common.controller.ProductController;
 import com.demo.common.model._MappingKit;
 import com.jfinal.config.Constants;
 import com.jfinal.config.Handlers;
@@ -25,8 +26,10 @@ public class CommonConfig extends JFinalConfig {
     }
 
     public void configRoute(Routes me) {
-        me.add("/user", UserController.class);
+        /*me.add("/user", UserController.class);*/
         me.add("/hello", HelloController.class);
+        me.add("/product", ProductController.class);
+        me.add("/productCategory", ProductCategoryController.class);
     }
 
     public void configEngine(Engine me) {
