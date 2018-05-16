@@ -8,9 +8,10 @@
 
 框架: jfinal 3.4
 
-接口地址： 查询 全部产品种类信息:furi-flowers/productCategory/getProductCategoryList 
-               某种类下面的产品: furi-flowers/product/getProductListByCategoryId?categoryId=
-               某个产品详情: furi-flowers/product/getProductInfo?id=?
+接口地址： 
+ 全部产品种类信息:furi-flowers/productCategory/getProductCategoryList 
+ 某种类下面的产品: furi-flowers/product/getProductListByCategoryId?categoryId=
+ 某个产品详情: furi-flowers/product/getProductInfo?id=?
 
 
 
